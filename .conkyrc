@@ -1,0 +1,8 @@
+out_to_x no
+out_to_console yes
+update_interval 1
+
+TEXT
+|${execi 10000 echo -e "\x07"}${execpi 3600 perl /home/n1x4/conky/pac.pl}${execi 10000 echo -e "\x01"}|Mail:${execi 10000 echo -e "\x07"}${execi 600 python2 /home/n1x4/conky/gmail.py}${execi 10000 echo -e "\x01"}|Hd:${execi 10000 echo -e "\x06"}${fs_used_perc /}%${execi 10000 echo -e "\x01"}|Cpu:${execi 10000 echo -e "\x05"}${cpu}%${execi 10000 echo -e "\x01"}|Mem:${execi 10000 echo -e "\x04"}${memperc}%${execi 10000 echo -e "\x01"}
+#| ${execi 10000 echo -e "\x02"}${time [%a %D] %r}
+#[${execi 10000 echo -e "\x06"}${wireless_essid wlan0}${execi 10000 echo -e "\x01"} ${execi 10000 echo -e "\x07"}${wireless_link_qual_perc wlan0}%${execi 10000 echo -e "\x01"}]
