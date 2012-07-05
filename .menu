@@ -1,5 +1,5 @@
-item = Chromium
-cmd = chromium
+item = Midori
+cmd = midori
 icon = null
 
 item = Terminal
@@ -8,6 +8,10 @@ icon = null
 
 item = Thunar
 cmd = thunar
+icon = null
+
+item = PacmanXG
+cmd = pacmanxg
 icon = null
 
 SEPARATOR
@@ -32,7 +36,7 @@ submenu = Accessories
 	icon = null
 
 	item = Transset-df
-	cmd = transset-df -c .65
+	cmd = transset-df -c .85
 	icon = null
 	
 	item = Xarchiver
@@ -207,9 +211,9 @@ submenu = Settings
 		cmd = urxvt -e nano -c /home/n1x4/ABS/dwm/dwm/config.h
 		icon = null
   
-                #item = Compile dwm
-		#cmd = urxvt -e makepkg -f /home/n1x4/ABS/dwm/dwm/
-		#icon = null
+                #item = Themes/Icons
+                #cmd = lxappearance
+                #icon = null
 
 	submenu = Keyboard layout
 		icon = false
