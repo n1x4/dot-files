@@ -13,6 +13,7 @@ alias update="sudo pacman -Syu"
 alias get="sudo pacman -S"
 alias connect="sudo netcfg linksys"
 alias x="startx"
+alias gitadd="gitadd.sh"
 
 #PS1='[\u@\h \W]\$ '
 #PS1='\[\e[0;33m\]\@ \[\e[m\]<\[\e[0;31m\]\u\[\e[m\]> \[\e[1;34m\]\W\n\[\e[0m\]> '
@@ -36,6 +37,6 @@ else
 	root="${red}"
 fi
 
-PS1="\[\e[1;34m\]╔══\e[0;37m[\e[0;35m\@\[\e[0;37m\]]\e[1;34m══\e[0;37m[\[\e[0;96m\]${root}\u\[\e[0;37m\]]\e[1;34m══\e[0;37m[\[\e[0;32m\]\w\[\e[0;37m\]]\n\[\e[1;34m\]╚══\e[0;2;33m>> \[\e[0m\]"
+PS1="\[\e[1;34m\]╔══\e[0;37m[\e[0;35m\@\[\e[0;37m\]]\e[1;34m══\e[0;37m[\[\e[0;96m\]${root}\u\[\e[0;37m\]]\e[1;34m══\e[0;37m[\[\e[0;32m\]\w\[\e[0;37m\]]\n\[\e[1;34m\]╚══\e[0;2;33m>> \e[0m"
 
 
